@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Mytest">
+        <parameter name="browserTipi" value="edge"> </parameter>
+        <classes>
+            <class
+                    name="ProjeTestNG5.Cases"> </class>
+            </classes>
+    </test>
+
+    <test name="Mytest2">
+        <parameter name="browserTipi" value="chrome"> </parameter>
+        <classes>
+            <class name="ProjeTestNG5.Cases2">
+            </class>
+        </classes>
+    </test>
+</suite>
